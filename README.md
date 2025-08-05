@@ -1,12 +1,6 @@
-# 🌸 Mi Portfolio – Huilén Vilches
+# 🌀 Portfolio Template – Next.js + Tailwind CSS + Framer Motion
 
-Un portfolio pastel construido con **Next.js**, **Tailwind CSS**, animaciones con **Framer Motion**, íconos con **React Icons** y un toque mágico ✨ de diseño y código personalizado.
-
-🔗 [Ver en producción](https://mi-portfolio-sepia.vercel.app/)
-
----
-
-## 🛠️ Tecnologías y herramientas usadas
+This is a customizable personal portfolio built with **Next.js 14**, **Tailwind CSS**, and **Framer Motion**. Designed for developers who want a dark, animated, and responsive landing to showcase their projects, skills, and contact info.
 
 - ☁️ **Next.js 15** 
 - ☁️ **Tailwind CSS** 
@@ -16,7 +10,22 @@ Un portfolio pastel construido con **Next.js**, **Tailwind CSS**, animaciones co
 - ☁️ **React Icons** 
 - ☁️ **Vercel** 
 
+## Customization Tips
+Edit HomeCard.tsx to change name, role, and intro.
+Use AboutCard.tsx to list your experience and stack.
+Add or edit projects in the array inside ProjectsCard.tsx.
+Customize the form fields in ContactCard.tsx.
+Update color scheme or animations via globals.css and Tailwind classes.
+Replace placeholder images in public/placeholder/.
 
+## Deployment
+This template is optimized for Vercel. To deploy:
+Push the code to GitHub.
+Go to vercel.com and import the repo.
+Set framework as Next.js, and click Deploy.
+
+📄 License
+MIT License. Free to use, modify, and deploy.
 
 ## © 2025 Made with ❤️ by SpookyCoincidence
 

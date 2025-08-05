@@ -1,9 +1,10 @@
 import Navbar from './components/Navbar';
-import FloatingCard from './components/FloatingCard';
+import FloatingCard from './components/HomeCard';
 import ExperienceCard from './components/AboutCard';
 import ProjectsCard from './components/ProjectsCard';
-import { BaseHubForm } from './components/BaseHubForm';
-import PlaylistCard from './components/PlaylistCard';
+import HomeCard from './components/HomeCard';
+import { ContactCard } from './components/ContactCard';
+
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <Navbar />
 
       <section className="flex flex-col items-center justify-center min-h-[80vh] px-4 md:px-0 pt-16 pb-8">
-        <FloatingCard />
+        <HomeCard />
       </section>
 
       <section id="experience" className="flex flex-col items-center justify-center px-6 py-10 max-w-7xl mx-auto w-full">
@@ -23,11 +24,7 @@ export default function Home() {
       </section>
 
       <section id="contact" className="flex flex-col items-center justify-center px-6 py-10 max-w-7xl mx-auto w-full">
-        <BaseHubForm />
-      </section>
-
-      <section id="playlist" className="flex flex-col items-center justify-center px-6 py-10 max-w-7xl mx-auto w-full">
-        <PlaylistCard />
+        <ContactCard />
       </section>
     </main>
   );

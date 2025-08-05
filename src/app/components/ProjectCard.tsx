@@ -1,3 +1,4 @@
+// src/app/components/ProjectCard.tsx
 import Image from 'next/image';
 
 interface ProjectCardProps {
@@ -23,7 +24,7 @@ export default function ProjectCard({ title, description, link, imageSrc, imageA
         hover:scale-105
         w-full
         md:max-w-sm
-        md:bg-gradient-to-br md:from-pink-50 md:via-purple-50 md:to-blue-50
+        md:bg-gradient-to-br md:from-gray-800 md:via-gray-900 md:to-black
         md:rounded-2xl md:shadow-lg md:p-4
         flex flex-col
         md:h-full
@@ -65,11 +66,11 @@ export default function ProjectCard({ title, description, link, imageSrc, imageA
       {/* oculto en mobile */}
       <div className="hidden md:flex md:flex-col md:justify-between md:flex-grow">
         <div>
-          <h3 className="text-xl font-semibold mb-2 text-gray-900">{title}</h3>
-          <p className="text-gray-700 mb-4">{description}</p>
+          <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
+          <p className="text-gray-300 mb-4">{description}</p>
         </div>
-        <span className="text-gray-900 font-semibold hover:underline mt-auto">
-          Ver proyecto →
+        <span className="text-gray-100 font-semibold hover:underline mt-auto">
+          View project →
         </span>
       </div>
     </a>
