@@ -24,16 +24,18 @@ export default function HomeCard() {
       className="w-full"
     >
       <h1 className="text-2xl font-bold mb-3 leading-tight md:text-6xl md:mb-4 text-white">
-        Your Name
+        Your Name 
       </h1>
       <p className="text-base mb-4 leading-snug md:text-3xl text-gray-300">
         Full Stack Developer — Specializing in modern web technologies
       </p>
 
-      <p className="mb-3 text-sm leading-snug md:text-base text-gray-400">
+      <p className="mb-3 text-xs leading-snug md:text-base text-gray-400">
         Brief description about your professional background. Mention your key skills, areas of interest, or industries you worked in.
         <br /><br />
         Use this space to introduce yourself and the kind of work you are passionate about.
+        <br /><br />
+        You can also talk about your approach to development, what motivates you, and what kind of projects you enjoy being part of.
       </p>
 
       <div className="flex gap-2 mt-4 flex-wrap md:gap-4">
@@ -43,7 +45,7 @@ export default function HomeCard() {
           rel="noopener noreferrer"
           className="bg-gray-800 border border-gray-700 text-white px-2 py-1 rounded shadow hover:bg-gray-700 transition text-xs md:text-sm"
         >
-          Email 💌
+          Email ✉️
         </a>
         <a
           href="https://github.com/your-username"
@@ -72,7 +74,7 @@ export default function HomeCard() {
       transition={{ duration: 0.5, ease: 'easeOut' }}
       className={`
         ${isMobile
-          ? 'p-3 bg-gray-900'
+          ? 'p-3 bg-transparent'
           : 'bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 p-3 rounded-3xl shadow-xl md:p-12'}
         max-w-full mx-auto mt-4 md:max-w-6xl
       `}
